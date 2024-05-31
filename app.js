@@ -13,7 +13,7 @@ const app = express();
 // MIDDLEWARE
 // Here you should set up the required middleware:
 // - `express.static()` to serve static files from the `public` folder
-app.use(express.statis("public)"));
+app.use(express.static("public)"));
 
 // - `express.json()` to parse incoming requests with JSON payloads
 app.use (express.json());
